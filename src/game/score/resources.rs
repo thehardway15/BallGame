@@ -1,7 +1,5 @@
 use bevy::prelude::*;
 
-pub const STAR_SPAWN_TIME: f32 = 1.0;
-
 #[derive(Resource)]
 pub struct Score {
     pub value: u32,
